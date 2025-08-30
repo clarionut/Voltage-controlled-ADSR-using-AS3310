@@ -3,4 +3,4 @@
 <img width="314" height="758" alt="image" src="https://github.com/user-attachments/assets/1e044e15-837f-4e2f-a648-28ea6051b577" />
 
 
-I was particularly interested in the flexibility of the <a target="_blank" rel="noreferrer noopener" href="http://www.digisound80.co.uk/digisound/modules/80-18.htm"</a>Digisound 80-18 multifunction envelope generator> with its three operating modes
+I was particularly interested in the flexibility of the <a target="_blank" rel="noreferrer noopener" href="http://www.digisound80.co.uk/digisound/modules/80-18.htm">Digisound 80-18 multifunction envelope generator</a> with its three operating modes
