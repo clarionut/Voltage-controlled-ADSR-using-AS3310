@@ -8,7 +8,7 @@ I was particularly interested in the versatility of the [Digisound 80-18 multifu
 - automatic (gives a complete ADR cycle following a brief trigger input)
 - damped (gives a piano-like envelope with initial attack and decay, but instead of a constant sustain while the gate is high the envelope continues to decay at a rate determined by the release setting, finally shutting off the envelope when the gate goes low)
 
-Curiously, given that the 3310 chip is intrinsically voltage controlled, the Digisound 80-18 module only allowed control of the envelope by potentiometers rather than allow external CV control, although there are other designs (e.g. by [gerb-ster](https://github.com/gerb-ster/Curtis-VC-ADSR)) which do allow external control.
+Curiously, given that the 3310 chip is intrinsically voltage controlled, the Digisound 80-18 module only featureded control of the envelope by potentiometers rather than allowing external CV control, although there are other designs (e.g. by [gerb-ster](https://github.com/gerb-ster/Curtis-VC-ADSR)) which do allow external control.
 
 ## Issues
 There is a known issue with the Digisound 80-18 module leading to repeated AD triggering with relatively weak gate inputs. The Digisound 80-18A documentation suggests using two gates from a CD40106 in series to condition the gate signal and [Eddy Bergman used a switch](https://www.eddybergman.com/2020/05/synthesizer-build-part-33-digisound-80.html) to break the loop responsible for multiple triggering. I chose to feed the gate input into an op-amp comparator so even rather low-level gates trigger the ADSR reliably.
