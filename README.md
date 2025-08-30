@@ -3,7 +3,7 @@
 <img width="20%" height="20%" alt="image" src="https://github.com/user-attachments/assets/1e044e15-837f-4e2f-a648-28ea6051b577" />
 
 
-I was particularly interested in the versatility of the [Digisound 80-18 multifunction envelope generator]( http://www.digisound80.co.uk/digisound/modules/80-18.htm) with its three operating modes
+This repository contains details of my modified version of the [Digisound 80-18 multifunction envelope generator]( http://www.digisound80.co.uk/digisound/modules/80-18.htm). I was particularly interested in its versatility with three operating modes
 - normal (standard ADSR)
 - automatic (gives a complete ADR cycle following a brief trigger input)
 - damped (gives a piano-like envelope with initial attack and decay, but instead of a constant sustain while the gate is high the envelope continues to decay at a rate determined by the release setting, finally shutting off the envelope when the gate goes low)
