@@ -10,6 +10,8 @@ This repository contains details of my modified version of the [Digisound 80-18 
 
 Curiously, given that the 3310 chip is intrinsically voltage controlled, the Digisound 80-18 module only featureded control of the envelope by potentiometers rather than allowing external CV control, although there are other designs (e.g. by [gerb-ster](https://github.com/gerb-ster/Curtis-VC-ADSR)) which do allow external control.
 
+I'm absolutely delighted with this module and immediately built a second one. I wouldn't want to be limited to a conventional ADSR having used this one.
+
 ## Issues
 There is a known issue with the Digisound 80-18 module leading to repeated AD triggering with relatively weak gate inputs. The Digisound 80-18A documentation suggests using two gates from a CD40106 in series to condition the gate signal and [Eddy Bergman used a switch](https://www.eddybergman.com/2020/05/synthesizer-build-part-33-digisound-80.html) to break the loop responsible for multiple triggering. I chose to feed the gate input into an op-amp comparator so even rather low-level gates trigger the ADSR reliably.
 
@@ -25,3 +27,6 @@ Coincidentally, at the time I was working on this circuit I was also fixing an i
 The decay CV input is normalled to the attack input and the release input is normalled to decay, allowing flexibility in external CV control.
 
 There are out-of-range monitor LEDs on the four CV inputs to warn if the combined potentiometer & external CV levels exceed the maximum useful control voltage (no damage would result, it simply wouldn't be effective).
+
+## Repository contents
+The schematics folder contains the full schematic as a PDF document, the PCB layout (with the front ground plane removed for clarity) and a subfolder containing the kicad 7 project. The kicad schematic and PCB use some custom symbols and footprints so you may have to download my custom [kiCad libraries](https://github.com/clarionut/kiCad_libraries). I've also included the Gerbers for direct fabrication of the PCB in case they're useful for anyone.
