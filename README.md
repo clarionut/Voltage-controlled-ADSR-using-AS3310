@@ -1,6 +1,6 @@
 # Voltage controlled ADSR using AS3310
 
-<img width="50%" height="50%" alt="image" src="https://github.com/user-attachments/assets/1e044e15-837f-4e2f-a648-28ea6051b577" />
+<img width="25%" height="25%" alt="image" src="https://github.com/user-attachments/assets/1e044e15-837f-4e2f-a648-28ea6051b577" />
 
 
 I was particularly interested in the versatility of the [Digisound 80-18 multifunction envelope generator]( http://www.digisound80.co.uk/digisound/modules/80-18.htm) with its three operating modes
